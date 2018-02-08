@@ -2,4 +2,4 @@
 
 ![Build Status](https://travis-ci.org/cyber-dojo-languages/nasm.svg?branch=master)
 
-[version](./docker/version.txt)
+Version=2.13.02

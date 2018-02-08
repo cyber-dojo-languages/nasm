@@ -1,3 +1,5 @@
-# asm 2.13.02
+# nasm
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/asm-2.13.02.svg?branch=master)
+![Build Status](https://travis-ci.org/cyber-dojo-languages/nasm.svg?branch=master)
+
+[version](./docker/version.txt)

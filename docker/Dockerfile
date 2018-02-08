@@ -3,4 +3,5 @@ LABEL maintainer=jon@jaggersoft.com
 
 RUN apt-get update && apt-get install --yes nasm
 
-RUN nasm -v | grep -q 2.13.02
+COPY version.txt /tmp
+RUN bash --version | grep -f /tmp/version.txt

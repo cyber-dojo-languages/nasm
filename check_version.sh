@@ -1,4 +1,5 @@
-#!/bin/bash -Eeu
+#!/usr/bin/env bash
+set -Eeu
 
 readonly MY_DIR="$( cd "$( dirname "${0}" )" && pwd )"
 readonly EXPECTED=2.16.01

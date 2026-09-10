@@ -2,7 +2,7 @@
 set -Eeu
 
 readonly MY_DIR="$( cd "$( dirname "${0}" )" && pwd )"
-readonly EXPECTED=2.16.01
+readonly EXPECTED=2.16
 readonly ACTUAL=$(docker run --rm -i ghcr.io/cyber-dojo-languages/nasm sh -c 'nasm -v')
 
 if echo "${ACTUAL}" | grep -q "${EXPECTED}"; then
